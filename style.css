@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headerBlock{
+    display: flex;
+    height: 100px;
+}
+.h1{
+    margin: 20px;
+}
+.blog{
+    padding: 10px; 
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.btn{
+    padding: 0px;
+    margin-top: 0;
+}
+.hspan{
+    color: skyblue;
+}
+.navdiv1{
+    display: flex;
+    width: 400px;
+    height: 100px;
+}
+.navdiv2{
+    margin-left: 700px;
+    display: flex;
+}
+.navdiv2 p,.navdiv2 img{
+    margin-top: 40px;
+}
+.navdiv2 button{
+    margin: 25px;
+    background-color: rgba(24,70,85,255);
+}
+
+
+
+/* header */
+.header{
+    height: 500px;
+    background: linear-gradient(45deg,lightpink,lightblue);
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+}
+h1{
+    font-size: 40px;
+}
+.headerContent{
+
+    margin: 100px;
+    margin-top: 100px;
+}
+.search{
+    margin-top: 15px;
+    display: flex;
+    width: 500px;
+    height: 65px;
+    background-color: white;
+    border-radius: 10px;
+}
+.search1{
+    padding: 15px;
+    display: flex;
+    width: 400px;
+}
+.search2{
+    width: 100px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.headerLinks{
+    margin:10px ;
+
+}
+.headerLinks a{
+    padding-right: 85px;
+    color: rgb(104, 93, 93);
+    text-decoration: none;
+}
+.headerLinks a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: 2px;
+    /* color: blue; */
+}
+
+
+.mainImage{
+    margin: 60px;
+    margin-left: 250px;
+    }
+    /* ..................................................................................................................... */
+    /* main */
+    .main{
+        background: linear-gradient(135deg,lightpink,lightblue);
+        height: 400px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin:15px;
+        display: flex;
+        padding: 20px;
+        padding-right: 0px;
+    }
+    .hand{
+        width:50%;
+    }
+    .hand img{
+        width: 700px;
+        height:400px;
+    }
+
+    .mainContent{
+
+    margin-left: 20px;
+    margin-right: 10px;
+    }
+    .mainContent h2{
+        font-size: 45px;
+    }
+    .main1div{
+        display: flex;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .mainContent p{
+        font-size: 30px;
+
+    }
+    /* .......................................................................................................... */
+
+    .section2{
+        margin: 20px;
+        display: flex;
+    }
+    .card{
+        height: 470px;
+        margin-right: 90px;
+        border: 1px solid gray;
+        border-radius: 20px;
+        box-shadow: black;
+        background-color: rgba(253,251,248,255);
+        
+
+
+    }
+    .card h3{
+        font-size: 30px;
+    }
+    .card_body{
+        margin-top: 10px;
+        display: flex;
+        font-size: 20px;
+    }
+    .lorem{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .extra{
+        font-size: 30px;
+        font-weight:0px;
+        font-family:unset;
+        text-align: end;
+        margin-right: 25px;
+    }
+    .author , .date{
+        color: grey;
+        
+    }
+    .card_body>.p2{
+        text-align: right;
+    }
+
+    /*...................................................................................................................  */
+
+    .footer{
+        height:600px;
+        background-color: rgba(163, 163, 222,8);
+        display: flex;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .f1 p{
+        font-size: 40px;
+    }
+    .fspan{
+        font-size: 50px;
+        font-weight: bolder;
+
+    }
+    .f1{
+        margin-top: 100px;
+        margin-left:100px;
+        padding: 50px;
+    }
+    button{
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: blue;
+        color: white;
+        font-weight: 50px;
+        font-size: 20px;
+    }
+
+    .f2 img{
+        margin-top: 150px;
+    }
